@@ -1,7 +1,22 @@
 [project]
-name = "agenticreid"
+name = "agentic-reid"
 version = "0.1.0"
-description = "Add your description here"
+description = "Clean-room Agentic ReID: interactive text-based person retrieval with negation-aware reranking"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "torchvision",
+  "tqdm",
+  "numpy",
+  "pillow",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff",
+  "mypy",
+]
+
+[tool.ruff]
+line-length = 100

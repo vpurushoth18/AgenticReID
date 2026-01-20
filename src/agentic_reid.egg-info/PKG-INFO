@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: agentic-reid
+Version: 0.1.0
+Summary: Clean-room Agentic ReID: interactive text-based person retrieval with negation-aware reranking
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: pillow
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"

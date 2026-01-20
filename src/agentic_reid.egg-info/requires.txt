@@ -1,0 +1,9 @@
+torch
+torchvision
+tqdm
+numpy
+pillow
+
+[dev]
+ruff
+mypy

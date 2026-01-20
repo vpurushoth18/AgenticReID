@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/agentic_reid/__init__.py
+src/agentic_reid.egg-info/PKG-INFO
+src/agentic_reid.egg-info/SOURCES.txt
+src/agentic_reid.egg-info/dependency_links.txt
+src/agentic_reid.egg-info/requires.txt
+src/agentic_reid.egg-info/top_level.txt
